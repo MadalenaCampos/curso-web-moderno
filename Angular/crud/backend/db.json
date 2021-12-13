@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta bic azul",
+      "price": 4.9
+    },
+    {
+      "id": 2,
+      "name": "Caneta bic preta",
+      "price": 4.9
+    },
+    {
+      "id": 3,
+      "name": "Caneta bic vermelha",
+      "price": 4.9
+    },
+    {
+      "name": "Marcador amarelo bic",
+      "price": "9.90",
+      "id": 4
+    },
+    {
+      "name": "Caixa lápis de cor (12 cores) Bic",
+      "price": "24.90",
+      "id": 5
+    },
+    {
+      "name": "Estojo 100 pens Faber Castell",
+      "price": "359.90",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+/* Aqui ficam os estilos globais da aplicação */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.red {
+    color: #e35e6b;
+}
+
+.v-middle {
+    vertical-align: middle;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.msg-success {
+    /* Isso é para a mensagem de sucesso */
+    background-color: #28a745;
+    color: #fff;
+}
+
+.msg-error {
+    /* Isso é para a mensagem de erro */
+    background-color: #e35e6b;
+    color: #fff;
+}

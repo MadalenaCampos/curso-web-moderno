@@ -1,0 +1,10 @@
+.home .title {
+    font-size: 3rem;
+    /* REM é uma unidade relativa, que faz relação com o raiz da página, 1rem = fonte padrão do browser, se adapta melhor as configurações que o usuario utiliza. Já o EM é relativo ao pai, ou seja "div" anterior */
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.home .subtitle {
+    font-size: 1.1rem;
+}

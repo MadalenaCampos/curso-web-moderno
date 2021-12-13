@@ -1,0 +1,9 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    /* A margin e definida no sentido horario, começando pelo topo sendo: top, right, bottom, left */
+    margin: 10px 15px 0px 0px;
+}

@@ -1,0 +1,23 @@
+<mat-card>
+    <mat-card-title> Novo produto </mat-card-title>
+    <form>
+        <!-- Atráves do uso do TWD Binding e do name nos inputs, vou salvar o nome e preço -->
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="product.name" name="name">
+            <!-- matInput é uma diretiva que modifica apenas o estilo do input -->
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)" [(ngModel)]="product.price" name="price">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="createProduct()" color="primary"> Salvar </button>
+    <button mat-raised-button (click)="cancel()"> Cancelar </button>
+</mat-card>
+
+<!-- Exemplo de binding
+<p [id]="propLegal">product-create works!</p> 
+- Aqui do id valor será "qualquer", que é o que tem em propLegal no arquivo .ts
+
+<button (click)="fazerAlgo()"> Fazer algo </button>
+- Aqui toda ver que clicar irá fazer o que o fazerAlgo(), presente no .ts manda, que nesse caso é dá um console em 'Fazenod algo'
+-->

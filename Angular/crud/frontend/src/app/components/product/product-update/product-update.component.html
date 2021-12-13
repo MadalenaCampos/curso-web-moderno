@@ -1,0 +1,19 @@
+<mat-card>
+    <mat-card-title> Alterar produto </mat-card-title>
+    <form>
+        <!-- <mat-form-field>
+            <input matInput placeholder="Identificador" [(ngModel)]="product.id" name="id" disabled="true">
+        </mat-form-field> Aqui era caso eu quisesse exibir o Identificador, mas sem permitir edição dele, foi apenas por prática -->
+        <!-- Atráves do uso do TWD Binding e do name nos inputs, vou salvar e exibir as alterações em nome e preço -->
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="product.name" name="name">
+            <!-- matInput é uma diretiva que modifica apenas o estilo do input -->
+            <!-- [(ngModel)]="product.name" isso é d eextrema importancia para que seja exibido os valores lá no input do form e assim atualizalos, não pode esquecer -->
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)" [(ngModel)]="product.price" name="price">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="updateProduct()" color="primary"> Atualizar </button>
+    <button mat-raised-button (click)="cancel()"> Cancelar </button>
+</mat-card>
